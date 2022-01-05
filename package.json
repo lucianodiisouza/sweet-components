@@ -14,7 +14,7 @@
   "keywords": [],
   "author": "Luciano dii Souza",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7",
     "@babel/preset-react": "^7.16.7",
