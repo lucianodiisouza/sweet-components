@@ -1,5 +1,8 @@
 {
-  "name": "first-lib",
+  "name": "@lucianodiisouza/sweet-components",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/lucianodiisouza"
+  },
   "version": "0.0.1",
   "description": "A simple library for styled and reausable React components",
   "scripts": {
