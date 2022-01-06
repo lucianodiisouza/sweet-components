@@ -1,8 +1,9 @@
 import React from "react";
-
-import "./Button.css";
+import * as B from "./styles";
 import { ButtonProps } from "./types";
 
-const Button = (props: ButtonProps) => <button>{props.label}</button>;
+const Button = ({ label, ...props }: ButtonProps) => (
+  <B.Button {...props}>{label}</B.Button>
+);
 
 export default Button;

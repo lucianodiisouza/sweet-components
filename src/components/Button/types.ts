@@ -1,3 +1,6 @@
 export interface ButtonProps {
-    label: string;
+  label: string;
+  variant: "fill" | "outline";
+  onClick?: () => void;
+  theme: "light" | "dark";
 }
